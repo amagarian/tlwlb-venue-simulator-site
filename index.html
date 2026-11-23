@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TLWLB Venue Simulator</title>
+    <style>html,body{color:#e8e8e8;background:#0b0d10;height:100%;margin:0;font:14px/1.4 system-ui,sans-serif;overflow:hidden}canvas{display:block}#overlay{cursor:pointer;background:#080a0eb8;place-items:center;display:grid;position:fixed;inset:0}#overlay .card{background:#151a21;border:1px solid #2a323d;border-radius:10px;max-width:440px;padding:24px 28px}#overlay h1{margin:0 0 4px;font-size:20px}#overlay p{color:#aab3bf;margin:6px 0}kbd{text-align:center;color:#fff;background:#242c37;border:1px solid #39434f;border-radius:4px;min-width:18px;margin-right:2px;padding:1px 6px;font:12px ui-monospace,monospace;display:inline-block}#hud{pointer-events:none;background:#0a0c1099;border-radius:6px;padding:6px 10px;font:12px ui-monospace,monospace;position:fixed;bottom:10px;left:12px}#cross{pointer-events:none;background:#ffffffb3;border-radius:50%;width:4px;height:4px;margin:-2px;position:fixed;top:50%;left:50%}</style>
+    <script type="module" crossorigin src="./assets/index-39ZUUAiL.js"></script>
+  </head>
+  <body>
+    <div id="cross"></div>
+    <div id="hud">loading…</div>
+    <div id="overlay">
+      <div class="card">
+        <h1>Mission Campus — graybox</h1>
+        <p>Click to walk the venue.</p>
+        <p><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> move · <kbd>Shift</kbd> run · mouse to look</p>
+        <p>If the mouse is not captured: drag to look, or turn with <kbd>←</kbd><kbd>→</kbd></p>
+        <p><kbd>F</kbd> fly / walk through walls · <kbd>Space</kbd>/<kbd>C</kbd> up/down while flying</p>
+        <p><kbd>E</kbd> open/close the nearest big door · <kbd>1</kbd><kbd>2</kbd><kbd>3</kbd> jump to a stage · <kbd>M</kbd> overhead view · <kbd>R</kbd> show/hide set pieces · <kbd>Esc</kbd> release the mouse</p>
+      </div>
+    </div>
+  </body>
+</html>
